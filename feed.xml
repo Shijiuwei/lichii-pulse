@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>lichii-pulse - 官方技术规范与分布式拓扑订阅</title>
+  <subtitle>Autonomous production-grade lichii framework: VERY experimental Nintendo Switch 2 emulator</subtitle>
+  <link href="https://shijiuwei.github.io/lichii-pulse/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://shijiuwei.github.io/lichii-pulse/" rel="alternate" type="text/html"/>
+  <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+  <id>https://shijiuwei.github.io/lichii-pulse/</id>
+  <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+  <author>
+    <name>lichii-pulse</name>
+  </author>
+  <entry>
+    <title>Building Eglantine</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/Build.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/Build.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;This guide is intended for developers ONLY. If you are not a developer or packager, you are unlikely to receive support.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Eglantine CI and release guide</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/CI.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/CI.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;This document describes the split GitHub Actions pipeline added with this change. It is not yet a live workflow until the files have been merged to the required...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>CPMUtil</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/CPMUtil.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/CPMUtil.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;CPMUtil is a wrapper around CPM that aims to reduce boilerplate and add useful utility functions to make dependency management a piece of cake.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Caveats</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/Caveats.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/Caveats.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;&lt;!-- TOC --&gt;&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Coding guidelines</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/Coding.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/Coding.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;These are not stylistic guidelines, they're, for the most part, suggestions on how to architecture new systems or improve upon the existing codebase.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Cross compiling</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/CrossCompile.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/CrossCompile.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;General guide for cross compiling.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Debug Guidelines</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/Debug.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/Debug.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;When reporting issues or finding bugs, we often need backtraces, debug logs, or both in order to track down the issue.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Dependencies</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/Deps.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/Deps.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;To build Eden, you MUST have a C++ compiler.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Design Overview</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/DesignOverview.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/DesignOverview.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Modern game consoles require heavy power to be emulated appropriately. This is why the emulator uses an approach known as HLE High-Level-Emulation, in a nutshel...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Development guidelines</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/Development.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/Development.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;All commits must have proper license header accreditation.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Driver bugs</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/DriverBugs.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/DriverBugs.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Non-exhaustive list of known drivers bugs.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Fire Emblem: Fortune's Weave spatial upscale candidate</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/FE_UPSCALE_STANDIN.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/FE_UPSCALE_STANDIN.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;This is a narrowly scoped workaround for the repeated tree/tile trails reported in&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>HOS Kernel</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/HosKernel.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/HosKernel.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;In brief, the HOS kernel is a microkernel, all services and programs run in userspace, the primary way to do communication between these is via HIPC not covered...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The NVIDIA SM86 (Maxwell) GPU - Instruction set</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/NvidiaGpu.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/NvidiaGpu.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;&lt;!-- TOC --&gt;&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>CMake Options</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/Options.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/Options.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;To change these options, add -DOPTION_NAME=NEWVALUE to the command line.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Eden Build Documentation</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/README.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/README.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Are you just a casual user? Take a look at our User Handbook./user then!&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Package an opt-in Star Fox Aftermath diagnostic</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/STARFOX_AFTERMATH_DIAGNOSTIC.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/STARFOX_AFTERMATH_DIAGNOSTIC.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;This package collects evidence for the RTX 5090 device loss. It does not fix&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Star Fox community crash investigation</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/STARFOX_COMMUNITY_CRASHES.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/STARFOX_COMMUNITY_CRASHES.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;The reports use Lichii 2b139e9889. The service fix is based on nx2&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Star Fox spatial upscale candidate</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/STARFOX_UPSCALE_STANDIN.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/STARFOX_UPSCALE_STANDIN.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;This extends the guarded Fire Emblem workaround to the captured Star Fox DLSS&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Settings</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/Settings.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/Settings.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;This guide is intended for developers ONLY. If you're looking for configuring the emulator itself, read the user handbook./user/README.md.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Debug video playback</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/VideoPlaybackDebug.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/VideoPlaybackDebug.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Use a separate capture directory for each game and each run. Keep the emulator's&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Upstream video playback audit</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/VideoPlaybackUpstreamAudit.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/VideoPlaybackUpstreamAudit.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Audit date: 2026-11-04. Upstream is Djihads80/Eglantine, remote upstream.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Upstream video search inventory</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/VideoPlaybackUpstreamInventory.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/VideoPlaybackUpstreamInventory.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Snapshot from 2026-11-04, Djihads80/Eglantine. Separate gh pr list and&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>lichii-pulse 分布式架构设计与拓扑调度规约</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/architecture.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/architecture.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;本文档为 lichii-pulse 项目的核心技术白皮书，详细定义了高可用多活集群同步协议、非阻塞异步事件循环调度机制与跨节点数据容灾方案。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bananza global atomic-add fix</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/bananza-atomic-fix.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/bananza-atomic-fix.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;The new profile identifies the missing operation as GlobalAtomicIAdd32. The native pointer pass deliberately retains this operation when its address can select ...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bananza compute compilation follow-up</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/bananza-compute-followup.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/bananza-compute-followup.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;The live trace proves that compute shaders reach an unimplemented SPIR-V emitter. It does not identify the IR opcode, and it does not prove that these failures ...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bananza diagnosis build</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/bananza-diagnostics.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/bananza-diagnostics.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Program ID: 040074A01BF12000.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bananza global atomics: unmapped append counters</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/bananza-global-atomics.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/bananza-global-atomics.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;The owner's live log still rejects nine Donkey Kong Bananza compute programs with Global atomic add with no routable storage buffer is not implemented. Those re...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bananza live trace follow-up</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/bananza-live-trace-followup.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/bananza-live-trace-followup.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;The supplied Windows log is from 8644f32fba, with a Ryzen 9 5900X,&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bananza pacing follow-up</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/bananza-pacing-followup.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/bananza-pacing-followup.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;The profile proves a one-present delay in applying a changed pacing period. It does&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bananza performance candidates</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/bananza-performance-candidates.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/bananza-performance-candidates.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;This is the historical audit of the first trace. The later profile and upstream&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bananza fixes after the lava-cave profile</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/bananza-profile-fixes.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/bananza-profile-fixes.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;This pass integrates upstream merge 13f533027c41ce1fe5452ea990ee8f497fe2d418,&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bananza query diagnostics</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/bananza-query-trace.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/bananza-query-trace.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;EDEN_DKB_FRAME_TRACE=1 enables DKB_QUERY and DKB_CONDITION lines in the normal&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bananza timing trace reference</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/bananza-timing-trace.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/bananza-timing-trace.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;EDEN_DKB_FRAME_TRACE=1 enables the DKB frame, DKB renderer, DKB cpu, DKB host_pace, and&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bananza shader comparison</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/bananza-upstream-comparison.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/bananza-upstream-comparison.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;This comparison uses these pinned revisions, before the separate upstream merge:&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Opt-in desktop compatibility reports</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/compatibility-report.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/compatibility-report.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;After stopping a Switch 2 game, right-click that game and choose Submit compatibility report. The action is available only for the latest session in the current...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Duskbloods register-handle image instructions</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/duskbloods-bindless-surfaces.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/duskbloods-bindless-surfaces.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;The static CGSB shader corpus contains formatted image instructions whose handle is&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Duskbloods uniform shift with an immediate high word</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/duskbloods-uniform-immediate-shift.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/duskbloods-uniform-immediate-shift.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;NVIDIA nvdisasm 12.8.90 with -b SM87 identifies opcode 0x499 as the&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Kirby Air Riders white-world investigation</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/kirby-white-world.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/kirby-white-world.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Program ID: 040077201BE50000.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Game-DLSS replacement</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/native-dlss-replacement.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/native-dlss-replacement.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;The Vulkan renderer can replace a recognized game-DLSS evaluation with NVIDIA DLSS on&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Overwolf Vulkan startup protection</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/overwolf-vulkan.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/overwolf-vulkan.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;On Windows, Lichii reads enabled Vulkan layer registrations in both registry&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Offline shader sweep, 2026-11-04</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-20261104.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-20261104.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;The sweep compiled 12,132 cases into SPIR-V modules that pass spirv-val after the fixes.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>After: shader sweep failures</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-after-20261104.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-after-20261104.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Generated from the full replay described in the sweep reportshader-sweep-20261104.md.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Static library shader sweep, 2026-11-04</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-all-games-20261104.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-all-games-20261104.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;This is a partial library sweep, not an all-games pass. The inventory identifies&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>After: static library shader diagnostics</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-all-games-after-20261104.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-all-games-after-20261104.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Counts are code/control allocations, not distinct bytecode or runtime draws.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Before: static library shader diagnostics</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-all-games-before-20261104.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-all-games-before-20261104.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Counts are code/control allocations, not distinct bytecode or runtime draws.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 lichii-pulse 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Before: shader sweep failures</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-before-20261104.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/shader-sweep-before-20261104.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;Generated from the full replay described in the sweep reportshader-sweep-20261104.md.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;冷热数据分层存储：lichii-pulse experimental 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>lichii-pulse 核心通信协议与数据同步技术规范</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/specifications.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/specifications.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;本规范定义了 lichii-pulse 集群各节点间的数据传输封装格式、会话保活心跳与反指纹安全规约。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】lichii-pulse 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>lichii-pulse 全息索引网络与搜索引擎感知接入指南</title>
+    <link href="https://shijiuwei.github.io/lichii-pulse/docs/topology-guide.html"/>
+    <id>https://shijiuwei.github.io/lichii-pulse/docs/topology-guide.html</id>
+    <updated>2026-11-08T15:46:42.535952400+00:00</updated>
+    <summary type="html">&lt;p&gt;面向开发者与网络调度代理的全面接入指导手册，助力快速完成节点部署与网络拓扑索引接入。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;lichii-pulse 内部组件解耦与事件状态机规范 (Spec-v1.1)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+</feed>

@@ -1,0 +1,5 @@
+title: "lichii-pulse"
+description: "Autonomous production-grade lichii framework: VERY experimental Nintendo Switch 2 emulator"
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-relative-links
